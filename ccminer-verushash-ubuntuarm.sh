@@ -1,7 +1,7 @@
 #!/bin/bash
-# ccminer compiler for ubuntu arm
+# ccminer compiler commands for ubuntu arm
 
-apt install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential
+apt install -y libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential
 git clone --single-branch -b ARM https://github.com/monkins1010/ccminer.git
 cd ccminer
 chmod +x build.sh
